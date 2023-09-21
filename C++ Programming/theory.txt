@@ -1,0 +1,53 @@
+C++ Programming language 
+
+C++ programming was developed by Bjarne Stroustrup as a extension version of c language as in c language their is no concept of oops , and it will be very difficult to manage large code in c language 
+in C++ it does not follow the complete oops concept infact it is a hybrid or partial oops based because it has class and normal command section both thus make it more flexible 
+
+ADVANTAGE OF C++ 
+1)As it is based on opps thus allow us to manage code into resuable and in a structure way
+2)In C++ we have a concept of  std( standard template library) they are just inbuilt library or function for especific task we can directly use by calling
+3)It is a mid level language because it has features of both high + low , in high it has concept of oops, std and in low segment it has concept of pointers , direct memory allocation , thus make it mid level language.
+4)Due to controbility towards direct memory managment it make it suitable for game development , software development e.t.c.
+
+
+DIFFERENT DATA TYPES IN C++
+1) PRIMARY - int , char , bool , double , float , void 
+2) DERIVED - function , array , pointers , references 
+3) USERDEFINED - Class , structure , union , enum
+
+
+REFERENCES CONCEPT IN C++ 
+normally in c++ refernce means just giving a nickname to some variable and when we call it actually referes to that variable , means same memory is used by two different names denoted by &.
+
+CALL BY REFERENCES AND CALL BY VALUE CONCEPT
+in call by reference we actually passing the variable the actual varible means any changes in function will be reflected in actual as well , on other hand pass by value means we are passing a copy of the variable and any changes won't reflect on actual ones
+if & is their in function then it is pass by reference
+
+TOKENS 
+so tokens are smallest individual unit of programming and they are keywords, constants , identifiers , string
+keywords - these are kind of reserved word like if , else , for cannot use for naming the variable
+identifiers - used to indentify the variables
+constant - to declare some constant values 
+
+
+STRUCT VS CLASS 
+ Both of these concept comes under the oops concept 
+ Struct -> Mainly it is used to store light weigth objects and has by default inbuit public access , it also store variable as pass by value form
+ Class -> in class it is by default private and we cannot use them directly and it also stores values by pass by reference type 
+
+Pointer vs Reference 
+ Pointers are normally used to store memory address of other variable and references simply just directly referes to that variable , we use * for pointers , pointers can hold null value and called as null pointer whereas reference cannot hold null value.
+
+FUNCTION OVERLOADING VS OPERATOR OVERLOADING 
+ simply when we called function with same name with multiple parameters then it is function overloading and when we want to use uoperators in user defined data types then we need to overload the operator calle operator overloading
+
+ARRAY VS LINKED LIST
+ array are the storing data type means they store similar type of data and we have to define size for storage first , only static data type can store and cannot be resizable on other hand linked list is like a chain where it is dynamic and connected with the help of 
+ pointer to each other , elements in array are easier to aceess , and also use less memeory then list.
+
+PREFIX VS POSTFIX
+these are two concept used in coding pre means before and post means after , in pre value get updateed first then actual value , and in post value update after the actual value is used.
+
+NEW VS MALLOC
+both of them are used for memory alocation but has difference, in new it is used to allocate object memory storage in c++ and it calls constructor of object automatically, thus much faster on other hand malloc is normally used in c language and has same
+work as new but it is slow and required complete manual setting and we have to call constructor for each object every time.
