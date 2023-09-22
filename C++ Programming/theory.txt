@@ -51,3 +51,58 @@ these are two concept used in coding pre means before and post means after , in 
 NEW VS MALLOC
 both of them are used for memory alocation but has difference, in new it is used to allocate object memory storage in c++ and it calls constructor of object automatically, thus much faster on other hand malloc is normally used in c language and has same
 work as new but it is slow and required complete manual setting and we have to call constructor for each object every time.
+
+VIRTUAL FUNCTION VS PURE VIRTUAL FUNCTION
+so both of the concepts are used to achieve polymorphism ( which has mainy forms) , so in virtual function , a function is declare by "virtual" keyword in base class and can be used by derived class, it is likely to gave excess of modification in derived class to achieve polymorphism and objects can also created in derived class in virtual function
+on other hand pure virtual function are used to achieve polymorphism and mainly used in abstract class(do not have identity in base class just provide a blueprint to other) and pure virtual function are marked with 0 at end , so basically it doenot have any structure and hence we cannot create objects from it , it gave excess to derived class to implemenetd they own functionality by following the basic structure to achieve polymorphism.
+
+
+CLASS AND OBJECTS 
+class and object are two important concept of oops infact oops is based on that only, so classes are like to blueprint or factory to produce a object, class consist of data member and member function , and objects are created by using this parameters of class, in simple terms class is like a factory in which equipments are placed and by the help of equipments different different products( objects) are created.
+
+FUNCTION OVERRIDING 
+function overriding comes under the runtime polymorphism in which a function with same name , same parameters as it was declare in parent class is used in derived class , just behaviour is only changed.
+
+INHERITANCE
+means we declare a parent class with some attributes and derived class or child class is made by parent class uses that attributes , just like parent child relationship , child has features of parents , but it has something of its own also
+In simple terms, the child class "inherits" or "extends" the properties and methods of the parent class. It's like saying, "I want to create a new class that has all the features of this existing class, plus some additional features of its own."
+
+TYPES OF INHERITANCE
+their are mainly 6 types of inheritance 1) single 2) multilevel 3) multiplevel 4) hybrid 5) hierarical 6) virtual level 
+
+* in single child class is derived from one base class only
+* in mutiple child class is derived from two or more base class
+* multiplelevel child class id derived from another child class
+* hybrid when we use all concepts 
+* hierarical in this multiple child class are made from one base class
+*virtual this concept is used when we wanted only one copy of instance(base class) like their is a base class 
+ animal you make two derived class dog, cat now you want to make another class name pet from dog, cat but you 
+ get two copies of animal so to overcome this use virtual keyword to get only one copy.
+
+
+POLYMORPHISM AND ITS TYPE 
+so polymorphism simply meaning having many forms or types o ability of a msg to display in  more than one form like best example for that is of security guard it cane be of celebrity or mey be normal society gurad or personal guard . their are mainly two type of polymorphism 
+1) Static polymorphism
+2) Runtime polymorphism 
+=> Static polymorphism also called as compile time or early binding it has also two
+   * function overloading 
+   * operator overloading
+=> runtime also called as late binding and it has concept of 
+   * function overriding 
+   * virtual functions 
+
+CONSTRUCTOR AND TYPES
+So in c++ constructor is a special member function in class that automatically call when we created a object its main function is to provide intial attributes of a object , ensure object starts with a define state and it has same name as class, and can be overloaded, if we doen't declare constructor in object making then automatically by default constructor is made with no arguments
+they are of mainly 3 types 1) default 2) parametrize 3) copy
+* default constructor has no parameters
+* parametrize has some parameters 
+* copy constructor this are used when we want to create a copy of exsisting object in a class
+
+CONSTRUCTOR OVERLOADING VS DESTRUCTOR OVERLOADING 
+=> simpley meaning we can create multiple constructor with same name but different parameters and gave us flexibility to make different objects using different constructor present in same class
+=>we cannot overload a destructor their could be only one dectructor per class and it has no arguments  or parameters. ( by nature)
+
+DELETE [] VS DELETE
+so delete is used to delete single object made by new while delete[] is used for delete array of objects made by new[] , delete[] is used to delete whole arrray while delete is used to delete single pointer
+
+FRIEND CLASS VS FRIEND FUNCTION CONCEPTS
