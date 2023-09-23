@@ -51,3 +51,44 @@ these are two concept used in coding pre means before and post means after , in 
 NEW VS MALLOC
 both of them are used for memory alocation but has difference, in new it is used to allocate object memory storage in c++ and it calls constructor of object automatically, thus much faster on other hand malloc is normally used in c language and has same
 work as new but it is slow and required complete manual setting and we have to call constructor for each object every time.
+
+MACROS 
+if we want to to understand macros concept it is like text replacement or help to write code in more flexible manner by using shortcut suppose you want to use pi value 3.147889  so instant of writing complete value every time you can create a macro by # define pi 3.1489 now when evert we write pi it will automatically assign that value 
+
+CAN CODE RUN WITHOUT MAIN
+yes we can do that their are various ways among which one is macro
+
+INLINE FUNCTION CONCEPT 
+so normally when we call a function complier go to that function then return to reduce this time we can declare function by inline and when we do that then complier insert the function where it is called in this way that roundtrip concept won't be their and their is no recursive call in that
+
+ABSTRACT CLASS 
+So, an abstract class is a way to create a common structure and set of behaviors for a group of related classes, ensuring that they all have certain methods in common while allowing each subclass to define its own specific implementation, and mainly  one pure virtual function is present in that class
+
+STATIC DATA MEMBER AND STATIC MEMBER FUNCTION
+Static Data Member:
+Think of a static data member as a shared piece of information among all objects of a class. It's like having a cookie jar that every member of a club can access, and when someone takes or adds a cookie, it affects the jar for everyone.
+For example, if you have a class called CookieJar, you can have a static data member called cookieCount to keep track of how many cookies are in all the jars. When you add a cookie to one jar, the cookieCount increases for all jars.
+
+Static Member Function:
+A static member function is like a special instruction that's given to the class itself, not to individual objects created from the class. It's like a rule that every member of a club must follow, regardless of their personal preferences.
+For instance, if you have a class called ClubMember, you can have a static member function called clubRules that outlines the rules of the club. Every member of the club, no matter who they are, follows these rules. You don't need a specific member to explain the rules; the rules apply to all members equally.
+
+So, in essence:
+
+Static data members are like shared pieces of data among all objects of a class.
+Static member functions are like instructions or rules that apply to the entire class, not just individual objects.
+
+SHALLOW COPY VS DEEP COPY
+Shallow copy copies references or pointers, so both the original and the copy point to the same data.
+Deep copy duplicates the data, creating entirely separate copies, so changes to one copy don't affect the other.
+
+VOID POINTER
+Just like its name a void pointer is a pointer that is not associated with anything or with any data type. Nevertheless, a void pointer can hold the address value of any type and can be converted from one data type to another.
+
+this POINTER 
+In simple terms, the "this" pointer in C++ is like a special tool that helps an object remember who it is. It's a way for an object to refer to itself, like when you use the word "I" to talk about yourself.
+
+Imagine you are a member of a club, and you want to write your name on a badge to say, "This badge belongs to me." In C++, the "this" pointer is like that badge with your name on it. It helps the object know which object it is and lets it access its own data and functions.
+
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x--x-x-x-x-x-x-x-x-x-x-x-x-x--x-x-x-x-x--x-x-x-x-x-x-x-x-x-x-x-x--x-x-x-x--x-x-x-x-x-x-
