@@ -55,7 +55,8 @@ work as new but it is slow and required complete manual setting and we have to c
 VIRTUAL FUNCTION VS PURE VIRTUAL FUNCTION
 so both of the concepts are used to achieve polymorphism ( which has mainy forms) , so in virtual function , a function is declare by "virtual" keyword in base class and can be used by derived class, it is likely to gave excess of modification in derived class to achieve polymorphism and objects can also created in derived class in virtual function
 on other hand pure virtual function are used to achieve polymorphism and mainly used in abstract class(do not have identity in base class just provide a blueprint to other) and pure virtual function are marked with 0 at end , so basically it doenot have any structure and hence we cannot create objects from it , it gave excess to derived class to implemenetd they own functionality by following the basic structure to achieve polymorphism.
-
+Virtual Keyword: By using the virtual keyword, you indicate that a function in a base class is meant to be overridden by derived classes. This is crucial for achieving runtime or dynamic polymorphism, where the appropriate function to call is determined at runtime based on the actual type of the object.
+Override the Function: Derived classes can override the virtual function by providing their own implementation. This means that each derived class can customize the behavior of the function while still adhering to the common interface defined in the base class.
 
 CLASS AND OBJECTS 
 class and object are two important concept of oops infact oops is based on that only, so classes are like to blueprint or factory to produce a object, class consist of data member and member function , and objects are created by using this parameters of class, in simple terms class is like a factory in which equipments are placed and by the help of equipments different different products( objects) are created.
